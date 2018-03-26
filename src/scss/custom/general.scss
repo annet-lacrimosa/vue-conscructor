@@ -1,0 +1,19 @@
+#app{
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.wrapper{
+	position:relative;
+	overflow:hidden;
+	flex: 1 0 auto;
+}
+.center-holder,
+.header-holder{
+	max-width: 1202px;
+	margin: 0 auto;
+	padding: 0 15px;
+	@media (min-width: 1200px){
+		padding: 0;
+	}
+}
